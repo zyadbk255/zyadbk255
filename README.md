@@ -209,20 +209,30 @@ I'm continuously improving my skills in **backend development, data analysis, ma
 
 ---
 
-<h2 align="center">📫 Connect With Me</h2>
+<h2 align="center">🌐 Connect With Me</h2>
 
 <div align="center">
 
 <a href="mailto:zyadbk255@gmail.com">
-  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  <img src="https://skillicons.dev/icons?i=gmail" width="45" alt="Email"/>
+  <br>
+  <sub><b>Email</b></sub>
 </a>
 
-<a href="https://www.instagram.com/zyadbakr1/">
-  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="https://www.instagram.com/zyadbakr1/" target="_blank">
+  <img src="https://skillicons.dev/icons?i=instagram" width="45" alt="Instagram"/>
+  <br>
+  <sub><b>Instagram</b></sub>
 </a>
 
-<a href="https://www.linkedin.com/in/ziad-bakr255/">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="https://www.linkedin.com/in/ziad-bakr255/" target="_blank">
+  <img src="https://skillicons.dev/icons?i=linkedin" width="45" alt="LinkedIn"/>
+  <br>
+  <sub><b>LinkedIn</b></sub>
 </a>
 
 </div>
