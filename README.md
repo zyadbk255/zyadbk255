@@ -183,9 +183,8 @@ I'm continuously improving my skills in **backend development, data analysis, ma
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=zyadbk255&show_icons=true&theme=tokyonight&hide_border=true" width="48%">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zyadbk255&layout=compact&theme=tokyonight&hide_border=true" width="48%">
+<img src="https://raw.githubusercontent.com/zyadbk255/zyadbk255/main/profile/stats.svg" width="48%">
+<img src="https://raw.githubusercontent.com/zyadbk255/zyadbk255/main/profile/top-langs.svg" width="48%">
 
 <br>
 
