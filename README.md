@@ -183,9 +183,14 @@ I'm continuously improving my skills in **backend development, data analysis, ma
 
 <div align="center">
 
+<h2 align="center">📊 GitHub Stats</h2>
+
+<div align="center">
+
 <img src="https://raw.githubusercontent.com/zyadbk255/zyadbk255/main/profile/stats.svg" width="48%">
 <img src="https://raw.githubusercontent.com/zyadbk255/zyadbk255/main/profile/top-langs.svg" width="48%">
 
+</div>
 <br>
 
 <img src="https://streak-stats.demolab.com?user=zyadbk255&theme=tokyonight&hide_border=true" width="60%">
