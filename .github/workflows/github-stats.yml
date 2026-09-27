@@ -1,48 +1,40 @@
 name: Update GitHub Stats
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 0 * * *"
-  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-
-    permissions:
-      contents: write
+    runs-on: ubuntu-24.04
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
       - name: Generate GitHub Stats
-        uses: stats-organization/github-readme-stats-action@v2
+        uses: anuraghazra/github-readme-stats@master
         with:
-          card: stats
-          options: username=zyadbk255&show_icons=true&theme=tokyonight&hide_border=true
-          path: stats.svg
+          username: zyadbk255
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate Top Languages
-        uses: stats-organization/github-readme-stats-action@v2
+      - name: Checkout gh-pages
+        uses: actions/checkout@v5
         with:
-          card: top-langs
-          options: username=zyadbk255&layout=compact&theme=tokyonight&hide_border=true
-          path: top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: gh-pages
+          path: gh-pages
 
-      - name: Publish to gh-pages
+      - name: Copy Stats
+        run: |
+          cp "$GITHUB_WORKSPACE/stats.svg" "$GITHUB_WORKSPACE/gh-pages/stats.svg"
+          cp "$GITHUB_WORKSPACE/top-langs.svg" "$GITHUB_WORKSPACE/gh-pages/top-langs.svg"
+
+      - name: Push to gh-pages
+        working-directory: gh-pages
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git fetch origin gh-pages
-          git checkout gh-pages
-
-          cp "$GITHUB_WORKSPACE/stats.svg" .
-          cp "$GITHUB_WORKSPACE/top-langs.svg" .
-
           git add stats.svg top-langs.svg
-          git commit -m "Update GitHub stats" || echo "No changes to commit"
+          git commit -m "Update GitHub stats" || echo "No changes"
           git push origin gh-pages
