@@ -199,7 +199,7 @@ I'm continuously improving my skills in **backend development, data analysis, ma
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/zyadbk255/zyadbk255/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake">
+<img src="https://raw.githubusercontent.com/zyadbk255/zyadbk255/gh-pages/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake">
 
 </div>
 
